@@ -1,6 +1,6 @@
 # README
 
-This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R does the following:
+This is the course project for the Getting and Cleaning Data Coursera course. The R script, `run_analysis.R` does the following:
 
 * Load the datasets from the UCI HAR Dataset folder
 * Combine all the datasets to create one large dataframe with useful labels

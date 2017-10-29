@@ -1,6 +1,6 @@
 # Code Book
 
-This is a code book that describes the variables, data, and transformations or work to clean the data
+This is a code book that describes the variables, data, and transformations of work to clean the data
 
 # Variables
 * `subject_train`- original dataframe that contains the training subjects
@@ -11,7 +11,6 @@ This is a code book that describes the variables, data, and transformations or w
 * `ytest`- original dataframe that contains the testing labels
 * `features`- original dataframe that provides a list of all features
 * `activity`- original dataframe that links the class labels with their activity name
-
 * `x`- combines xtest and xtrain datasets
 * `y`- combines ytest and ytrain datasets
 * `y_activity`- adds activity labels to y
@@ -21,3 +20,8 @@ This is a code book that describes the variables, data, and transformations or w
 * `non_duplicated_data`- gets rid of duplicated columns in the complete_df
 * `meanstd`- tidy dataset containing only features of mean/std
 * `average_df`- tidy dataset with average of each mean/std feature for each subject and activity group.
+
+# Tidy Data
+* `complete_df` - all variables for testing and training together
+* `meanstd` - subset of `complete_df` that contains only the columns indicating `mean` or `standard deviation`
+* `average_df` - summarizes the `meanstd` dataset by providing only the average of each value variable for each group of subject and activity type.
