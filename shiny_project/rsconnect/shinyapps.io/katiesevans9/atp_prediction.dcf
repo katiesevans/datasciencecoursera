@@ -1,0 +1,12 @@
+name: atp_prediction
+title: ATP_prediction
+username:
+account: katiesevans9
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 266269
+bundleId: 1199980
+url: https://katiesevans9.shinyapps.io/atp_prediction/
+when: 1517350987.66233
+asMultiple: FALSE
+asStatic: FALSE
